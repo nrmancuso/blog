@@ -3,7 +3,6 @@
 
 ## Quick Installation
 
-
 ```bash
 sudo dnf remove ruby
 sudo dnf install rbenv ruby-build
@@ -17,12 +16,12 @@ eval "$(rbenv init -)"
 
 git clone https://github.com/nrmancuso/blog.git
 cd blog
-bin/bootstrap
+./bin/bootstrap
 bundle install
 ```
 
 ## Running Locally
-`bin/start` - development server will start at http://127.0.0.1:4000
+`./bin/start` - development server will start at http://127.0.0.1:4000
 
 ## Deployment
 Just push to main branch, and github actions will take care of the rest.
