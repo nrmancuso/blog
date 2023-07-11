@@ -8,6 +8,9 @@ navbar_entries:
   - title: github
     url: https://github.com/nrmancuso
 
+  - title: linkedin
+    url: https://www.linkedin.com/in/nick-mancuso-dev
+
 
 misc_entries:
   - title: this is an example vertical list
